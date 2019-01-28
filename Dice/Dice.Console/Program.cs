@@ -10,7 +10,6 @@ namespace Dice.Console
     {
         static void Main(string[] args)
         {
-            //This is my rubbish comment, someone should delete it
         }
     }
 }
