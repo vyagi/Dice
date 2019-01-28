@@ -17,5 +17,24 @@ namespace DieLogic
                 _diceSet.Add(new Die());
             }
         }
+
+        public void Roll()
+        {
+            foreach (var die in _diceSet)
+            {
+                die.Roll();
+            }
+        }
+
+        public int[] Show()
+        {
+            int[] result = new int[_diceSet.Count];
+            foreach (var die in _diceSet)
+            {
+                die.Show();
+            }
+
+            return result;
+        }
     }
 }
