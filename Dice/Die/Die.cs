@@ -8,7 +8,7 @@ namespace DieLogic
 {
     public class Die
     {
-        private int 
+        private int result;
         public void Roll()
         {
 
