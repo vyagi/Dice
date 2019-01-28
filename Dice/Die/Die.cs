@@ -17,7 +17,7 @@ namespace DieLogic
 
         public int Show()
         {
-            return 0;
+            return result;
         }
     }
 }
