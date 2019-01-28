@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DieLogic
 {
-    class Dice
+    public class Dice
     {
         private List<Die> _diceSet = new List<Die>();
 
@@ -16,6 +16,7 @@ namespace DieLogic
             {
                 _diceSet.Add(new Die());
             }
+            Roll();
         }
 
         public void Roll()
