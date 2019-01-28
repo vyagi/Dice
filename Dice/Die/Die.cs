@@ -9,7 +9,7 @@ namespace DieLogic
     public class Die
     {
         private int result;
-        Random rnd = new Random();
+        static Random rnd = new Random();
         public void Roll()
         {
             result = rnd.Next(0, 6);
