@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Die
+namespace DieLogic
 {
     public class Die
     {
+        private int 
         public void Roll()
         {
 
