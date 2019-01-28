@@ -15,7 +15,7 @@ namespace Die
 
         public int Show()
         {
-
+            return 0;
         }
     }
 }
