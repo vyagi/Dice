@@ -12,7 +12,7 @@ namespace DieLogic
         static Random rnd = new Random();
         public void Roll()
         {
-            result = rnd.Next(0, 6);
+            result = rnd.Next(1, 7);
         }
 
         public int Show()
