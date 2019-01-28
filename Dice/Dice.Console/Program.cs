@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DieLogic;
 
-namespace Dice.Console
+namespace DiceConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
+            
         }
     }
 }
