@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Die
+namespace DieLogic
 {
     class Dice
     {
-        private List<DieLogic.Die> DiceSet = new List<DieLogic.Die>();
-        private int count;
+        private List<Die> _diceSet = new List<Die>();
 
         public Dice(int count)
         {
             for (int i=0; i<count;i++)
             {
-                DiceSet.Add(new DieLogic.Die());
+                _diceSet.Add(new Die());
             }
         }
     }
