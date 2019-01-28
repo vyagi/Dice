@@ -29,9 +29,9 @@ namespace DieLogic
         public int[] Show()
         {
             int[] result = new int[_diceSet.Count];
-            foreach (var die in _diceSet)
+            for (int i=0; i<_diceSet.Count; i++)
             {
-                die.Show();
+                result[i] = _diceSet[i].Show();
             }
 
             return result;
